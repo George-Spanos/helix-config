@@ -13,6 +13,9 @@ select="underline"
 
 [editor.file-picker]
 # hidden=false
+ 
+[editor.soft-wrap]
+enable = true
 
 [editor.inline-diagnostics]
 cursor-line="warning"
@@ -26,3 +29,4 @@ C-y = [
   ':redraw',
 ]
 C-q=":bc"
+
